@@ -1,4 +1,4 @@
-package com.loyo.koinapplication
+package com.loyo.koinapplication.model
 
 import androidx.lifecycle.ViewModel
 

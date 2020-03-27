@@ -7,10 +7,7 @@
 
         <variable
             name="data"
-            type="com.loyo.koinapplication.MyViewModel" />
-        <variable
-            name="clickListener"
-            type="com.loyo.koinapplication.MainActivity.ClickListener" />
+            type="com.loyo.koinapplication.model.MyViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -35,7 +32,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/naxt_page"
-            android:onClick="@{()->clickListener.click()}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
